@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: noto sans;
+}
+
+.header{
+    background-image: url(../assets/images/Fondo.png);
+    height: 80vh;
+}
+
+
+.navbar{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar span{
+    color: #00aaff;
+}
+.links{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+
+}
+.links button{
+    background-color: transparent;
+    color: #00aaff;
+    border: 1px solid #00aaff ;
+    padding: 8px;
+}
+.overlay {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box {
+  background-color: rgba(40, 60, 80, 0.8);
+  margin: 10px 0;
+  padding: 20px 50px;
+}
+
+.text-box p {
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.info{
+    background-color: #00aaff;
+    color: white;
+}
+
+.info-grid{
+    display: grid;
+    grid-template-rows: repeat(4 1fr);
+    padding: 90px;
+    width: 70%;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.coffee{
+    grid-column: 1/2;
+}
+
+.instant{
+    grid-column: 2/3;
+}
+.serious{
+    grid-column: 3/4;
+}
+.frame{
+    grid-column: 4/5;
+}
+
+.coffee h3 , .instant h3 , .serious h3, .frame h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
